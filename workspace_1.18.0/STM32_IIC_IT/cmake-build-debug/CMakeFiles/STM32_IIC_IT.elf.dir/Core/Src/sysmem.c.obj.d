@@ -1,0 +1,20 @@
+CMakeFiles/STM32_IIC_IT.elf.dir/Core/Src/sysmem.c.obj: \
+ F:\STM32CubeIDE\workspace_1.18.0\STM32_IIC_IT\Core\Src\sysmem.c \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\errno.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\sys\errno.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\sys\reent.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\_ansi.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\newlib.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\_newlib_version.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\sys\config.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\machine\ieeefp.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\sys\features.h \
+ f:\ahl-gec-ide(4.63)\gcc\lib\gcc\arm-none-eabi\7.2.1\include\stddef.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\sys\_types.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\machine\_types.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\machine\_default_types.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\sys\lock.h \
+ f:\ahl-gec-ide(4.63)\gcc\lib\gcc\arm-none-eabi\7.2.1\include\stdint.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\stdint.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\sys\_intsup.h \
+ f:\ahl-gec-ide(4.63)\gcc\arm-none-eabi\include\sys\_stdint.h

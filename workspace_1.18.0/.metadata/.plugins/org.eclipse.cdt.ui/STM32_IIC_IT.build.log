@@ -1,0 +1,94 @@
+13:35:23 **** Incremental Build of configuration Debug for project STM32_IIC_IT ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/aht20.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/aht20.d" -MT"Core/Src/aht20.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/aht20.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/aht20.c: In function 'AHT20_Init':
+../Core/Src/aht20.c:16:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   16 |     HAL_UART_Transmit(&huart2, "INIT_START", 10, HAL_MAX_DELAY);
+      |                                ^~~~~~~~~~~~
+      |                                |
+      |                                char *
+In file included from ../Core/Inc/stm32f1xx_hal_conf.h:338,
+                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Inc/i2c.h:29,
+                 from ../Core/Inc/aht20.h:11,
+                 from ../Core/Src/aht20.c:1:
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:749:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  749 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/aht20.c:22:38: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   22 |           HAL_UART_Transmit(&huart2, "INIT_SUCCESS", 12, HAL_MAX_DELAY);
+      |                                      ^~~~~~~~~~~~~~
+      |                                      |
+      |                                      char *
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:749:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  749 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/aht20.c:28:32: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   28 |     HAL_UART_Transmit(&huart2, "INIT_COMPLETE", 13, HAL_MAX_DELAY);
+      |                                ^~~~~~~~~~~~~~~
+      |                                |
+      |                                char *
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:749:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  749 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/aht20.c: In function 'AHT20_Measure':
+../Core/Src/aht20.c:39:36: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   39 |         HAL_UART_Transmit(&huart2, "MEASURE_START", 13, HAL_MAX_DELAY);
+      |                                    ^~~~~~~~~~~~~~~
+      |                                    |
+      |                                    char *
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:749:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  749 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/aht20.c: In function 'AHT20_Get':
+../Core/Src/aht20.c:50:36: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   50 |         HAL_UART_Transmit(&huart2, "GET_START", 9, HAL_MAX_DELAY);
+      |                                    ^~~~~~~~~~~
+      |                                    |
+      |                                    char *
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:749:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  749 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/aht20.c: In function 'AHT20_FIGURE':
+../Core/Src/aht20.c:74:36: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   74 |         HAL_UART_Transmit(&huart2, "READY", 5, HAL_MAX_DELAY);
+      |                                    ^~~~~~~
+      |                                    |
+      |                                    char *
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:749:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  749 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/aht20.c: In function 'HAL_I2C_MasterTxCpltCallback':
+../Core/Src/aht20.c:81:44: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   81 |                 HAL_UART_Transmit(&huart2, "MEASURE_COMPLETE", 16, HAL_MAX_DELAY);
+      |                                            ^~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            char *
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:749:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  749 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+../Core/Src/aht20.c: In function 'HAL_I2C_MasterRxCpltCallback':
+../Core/Src/aht20.c:92:36: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+   92 |         HAL_UART_Transmit(&huart2, "GET_COMPLETE", 12, HAL_MAX_DELAY);
+      |                                    ^~~~~~~~~~~~~~
+      |                                    |
+      |                                    char *
+../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:749:79: note: expected 'const uint8_t *' {aka 'const unsigned char *'} but argument is of type 'char *'
+  749 | HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                                ~~~~~~~~~~~~~~~^~~~~
+arm-none-eabi-g++ -o "STM32_IIC_IT.elf" @"objects.list"   -mcpu=cortex-m3 -T"F:\STM32CubeIDE\workspace_1.18.0\STM32_IIC_IT\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_IIC_IT.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32_IIC_IT.elf
+ 
+arm-none-eabi-size  STM32_IIC_IT.elf 
+arm-none-eabi-objdump -h -S STM32_IIC_IT.elf  > "STM32_IIC_IT.list"
+   text	   data	    bss	    dec	    hex	filename
+  42564	    476	   2068	  45108	   b034	STM32_IIC_IT.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32_IIC_IT.list
+ 
+
+13:35:23 Build Finished. 0 errors, 8 warnings. (took 703ms)
+

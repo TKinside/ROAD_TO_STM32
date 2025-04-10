@@ -55,9 +55,7 @@ add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB)
 
 file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*")
 
-set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/
-        Core/Inc/oled.h
-        Core/Src/oled.cpp)
+set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/)
 
 add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)
 add_link_options(-mcpu=cortex-m3 -mthumb -mthumb-interwork)

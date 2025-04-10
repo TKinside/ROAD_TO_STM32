@@ -80,12 +80,12 @@ clean: CMakeFiles/STM32_OLED.elf.dir/clean
 CMakeFiles/STM32_OLED.elf.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23 "Built target STM32_OLED.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27 "Built target STM32_OLED.elf"
 .PHONY : CMakeFiles/STM32_OLED.elf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/STM32_OLED.elf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles 27
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/STM32_OLED.elf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/STM32_OLED.elf.dir/rule

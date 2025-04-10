@@ -1,0 +1,10 @@
+11:52:14 **** Incremental Build of configuration Release for project MCU_LESSON_UART ****
+make -j16 all 
+arm-none-eabi-size  MCU_LESSON_UART.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7256	     12	   1708	   8976	   2310	MCU_LESSON_UART.elf
+Finished building: default.size.stdout
+ 
+
+11:52:15 Build Finished. 0 errors, 0 warnings. (took 282ms)
+

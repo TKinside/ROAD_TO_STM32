@@ -68,10 +68,38 @@ include CMakeFiles/STM32_OLED.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/STM32_OLED.elf.dir/flags.make
 
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Src/aht20.c
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.obj"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Core\Src\aht20.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\aht20.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\aht20.c
+
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.i"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\aht20.c > CMakeFiles\STM32_OLED.elf.dir\Core\Src\aht20.c.i
+
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.s"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\aht20.c -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\aht20.c.s
+
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Src/font.c
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.obj"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Core\Src\font.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\font.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\font.c
+
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.i"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\font.c > CMakeFiles\STM32_OLED.elf.dir\Core\Src\font.c.i
+
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.s"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\font.c -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\font.c.s
+
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/gpio.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Src/gpio.c
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/gpio.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\gpio.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\gpio.c
 
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -85,7 +113,7 @@ CMakeFiles/STM32_OLED.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/i2c.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Src/i2c.c
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/i2c.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/i2c.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Core/Src/i2c.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Core\Src\i2c.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\i2c.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\i2c.c
 
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/i2c.c.i: cmake_force
@@ -99,7 +127,7 @@ CMakeFiles/STM32_OLED.elf.dir/Core/Src/i2c.c.s: cmake_force
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/main.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/main.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Src/main.c
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/main.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/main.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\main.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\main.c
 
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/main.c.i: cmake_force
@@ -110,24 +138,24 @@ CMakeFiles/STM32_OLED.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32_OLED.elf.dir/Core/Src/main.c.s"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\main.c -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\main.c.s
 
-CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
-CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Src/oled.cpp
-CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.obj"
-	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.obj -MF CMakeFiles\STM32_OLED.elf.dir\Core\Src\oled.cpp.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\oled.cpp.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\oled.cpp
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Src/oled.c
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.obj"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Core\Src\oled.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\oled.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\oled.c
 
-CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.i"
-	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\oled.cpp > CMakeFiles\STM32_OLED.elf.dir\Core\Src\oled.cpp.i
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.i"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\oled.c > CMakeFiles\STM32_OLED.elf.dir\Core\Src\oled.c.i
 
-CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.s"
-	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\oled.cpp -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\oled.cpp.s
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.s"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\oled.c -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\oled.c.s
 
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Src/stm32f1xx_hal_msp.c
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\stm32f1xx_hal_msp.c
 
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
@@ -141,7 +169,7 @@ CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_it.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Src/stm32f1xx_it.c
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_it.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_it.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Core\Src\stm32f1xx_it.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\stm32f1xx_it.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\stm32f1xx_it.c
 
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
@@ -155,7 +183,7 @@ CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/syscalls.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Src/syscalls.c
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/syscalls.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\syscalls.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\syscalls.c
 
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -169,7 +197,7 @@ CMakeFiles/STM32_OLED.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/sysmem.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Src/sysmem.c
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/sysmem.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\sysmem.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\sysmem.c
 
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -183,7 +211,7 @@ CMakeFiles/STM32_OLED.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/system_stm32f1xx.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Src/system_stm32f1xx.c
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/system_stm32f1xx.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Core/Src/system_stm32f1xx.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Core\Src\system_stm32f1xx.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\system_stm32f1xx.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\system_stm32f1xx.c
 
 CMakeFiles/STM32_OLED.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
@@ -194,9 +222,23 @@ CMakeFiles/STM32_OLED.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32_OLED.elf.dir/Core/Src/system_stm32f1xx.c.s"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\system_stm32f1xx.c -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\system_stm32f1xx.c.s
 
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Src/usart.c
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.obj"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\usart.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\usart.c
+
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.i"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\usart.c > CMakeFiles\STM32_OLED.elf.dir\Core\Src\usart.c.i
+
+CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.s"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Src\usart.c -o CMakeFiles\STM32_OLED.elf.dir\Core\Src\usart.c.s
+
 CMakeFiles/STM32_OLED.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Core/Startup/startup_stm32f103c8tx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/STM32_OLED.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/STM32_OLED.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STM32_OLED.elf.dir\Core\Startup\startup_stm32f103c8tx.s.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Core\Startup\startup_stm32f103c8tx.s
 
 CMakeFiles/STM32_OLED.elf.dir/Core/Startup/startup_stm32f103c8tx.s.i: cmake_force
@@ -210,7 +252,7 @@ CMakeFiles/STM32_OLED.elf.dir/Core/Startup/startup_stm32f103c8tx.s.s: cmake_forc
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -224,7 +266,7 @@ CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -238,7 +280,7 @@ CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cor
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -252,7 +294,7 @@ CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -266,7 +308,7 @@ CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_ext
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -280,7 +322,7 @@ CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_fla
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -294,7 +336,7 @@ CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_fla
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -308,7 +350,7 @@ CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpi
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -322,7 +364,7 @@ CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpi
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c
 
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.i: cmake_force
@@ -336,7 +378,7 @@ CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -350,7 +392,7 @@ CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -364,7 +406,7 @@ CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -375,17 +417,34 @@ CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s"
 	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.s
 
+CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/STM32_OLED.elf.dir/flags.make
+CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
+CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/STM32_OLED.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj -MF CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
+
+CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c > CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.i
+
+CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s"
+	F:\AHL-GEC-IDE(4.63)\gcc\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c -o CMakeFiles\STM32_OLED.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.s
+
 # Object files for target STM32_OLED.elf
 STM32_OLED_elf_OBJECTS = \
+"CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.obj" \
+"CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.obj" \
 "CMakeFiles/STM32_OLED.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/STM32_OLED.elf.dir/Core/Src/i2c.c.obj" \
 "CMakeFiles/STM32_OLED.elf.dir/Core/Src/main.c.obj" \
-"CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.obj" \
+"CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.obj" \
 "CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj" \
 "CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_it.c.obj" \
 "CMakeFiles/STM32_OLED.elf.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/STM32_OLED.elf.dir/Core/Src/sysmem.c.obj" \
 "CMakeFiles/STM32_OLED.elf.dir/Core/Src/system_stm32f1xx.c.obj" \
+"CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.obj" \
 "CMakeFiles/STM32_OLED.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj" \
 "CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj" \
 "CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj" \
@@ -398,20 +457,24 @@ STM32_OLED_elf_OBJECTS = \
 "CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj" \
 "CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj" \
 "CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj" \
-"CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+"CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" \
+"CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
 
 # External object files for target STM32_OLED.elf
 STM32_OLED_elf_EXTERNAL_OBJECTS =
 
+STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.obj
+STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Src/gpio.c.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Src/i2c.c.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Src/main.c.obj
-STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.obj
+STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Src/stm32f1xx_it.c.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Src/syscalls.c.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Src/sysmem.c.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Src/system_stm32f1xx.c.obj
+STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Core/Startup/startup_stm32f103c8tx.s.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
@@ -425,9 +488,10 @@ STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/s
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
+STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/build.make
 STM32_OLED.elf: CMakeFiles/STM32_OLED.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable STM32_OLED.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=F:\STM32CubeIDE\workspace_1.18.0\STM32_OLED\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable STM32_OLED.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\STM32_OLED.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/cmake-build-debug/STM32_OLED.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building F:/STM32CubeIDE/workspace_1.18.0/STM32_OLED/cmake-build-debug/STM32_OLED.bin"

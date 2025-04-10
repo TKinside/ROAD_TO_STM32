@@ -128,6 +128,54 @@ STM32_OLED.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/build
 .PHONY : STM32_OLED.elf/fast
 
+Core/Src/aht20.obj: Core/Src/aht20.c.obj
+.PHONY : Core/Src/aht20.obj
+
+# target to build an object file
+Core/Src/aht20.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.obj
+.PHONY : Core/Src/aht20.c.obj
+
+Core/Src/aht20.i: Core/Src/aht20.c.i
+.PHONY : Core/Src/aht20.i
+
+# target to preprocess a source file
+Core/Src/aht20.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.i
+.PHONY : Core/Src/aht20.c.i
+
+Core/Src/aht20.s: Core/Src/aht20.c.s
+.PHONY : Core/Src/aht20.s
+
+# target to generate assembly for a file
+Core/Src/aht20.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/aht20.c.s
+.PHONY : Core/Src/aht20.c.s
+
+Core/Src/font.obj: Core/Src/font.c.obj
+.PHONY : Core/Src/font.obj
+
+# target to build an object file
+Core/Src/font.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.obj
+.PHONY : Core/Src/font.c.obj
+
+Core/Src/font.i: Core/Src/font.c.i
+.PHONY : Core/Src/font.i
+
+# target to preprocess a source file
+Core/Src/font.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.i
+.PHONY : Core/Src/font.c.i
+
+Core/Src/font.s: Core/Src/font.c.s
+.PHONY : Core/Src/font.s
+
+# target to generate assembly for a file
+Core/Src/font.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/font.c.s
+.PHONY : Core/Src/font.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -200,29 +248,29 @@ Core/Src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/main.c.s
 .PHONY : Core/Src/main.c.s
 
-Core/Src/oled.obj: Core/Src/oled.cpp.obj
+Core/Src/oled.obj: Core/Src/oled.c.obj
 .PHONY : Core/Src/oled.obj
 
 # target to build an object file
-Core/Src/oled.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.obj
-.PHONY : Core/Src/oled.cpp.obj
+Core/Src/oled.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.obj
+.PHONY : Core/Src/oled.c.obj
 
-Core/Src/oled.i: Core/Src/oled.cpp.i
+Core/Src/oled.i: Core/Src/oled.c.i
 .PHONY : Core/Src/oled.i
 
 # target to preprocess a source file
-Core/Src/oled.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.i
-.PHONY : Core/Src/oled.cpp.i
+Core/Src/oled.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.i
+.PHONY : Core/Src/oled.c.i
 
-Core/Src/oled.s: Core/Src/oled.cpp.s
+Core/Src/oled.s: Core/Src/oled.c.s
 .PHONY : Core/Src/oled.s
 
 # target to generate assembly for a file
-Core/Src/oled.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.cpp.s
-.PHONY : Core/Src/oled.cpp.s
+Core/Src/oled.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/oled.c.s
+.PHONY : Core/Src/oled.c.s
 
 Core/Src/stm32f1xx_hal_msp.obj: Core/Src/stm32f1xx_hal_msp.c.obj
 .PHONY : Core/Src/stm32f1xx_hal_msp.obj
@@ -343,6 +391,30 @@ Core/Src/system_stm32f1xx.s: Core/Src/system_stm32f1xx.c.s
 Core/Src/system_stm32f1xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/system_stm32f1xx.c.s
 .PHONY : Core/Src/system_stm32f1xx.c.s
+
+Core/Src/usart.obj: Core/Src/usart.c.obj
+.PHONY : Core/Src/usart.obj
+
+# target to build an object file
+Core/Src/usart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.obj
+.PHONY : Core/Src/usart.c.obj
+
+Core/Src/usart.i: Core/Src/usart.c.i
+.PHONY : Core/Src/usart.i
+
+# target to preprocess a source file
+Core/Src/usart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.i
+.PHONY : Core/Src/usart.c.i
+
+Core/Src/usart.s: Core/Src/usart.c.s
+.PHONY : Core/Src/usart.s
+
+# target to generate assembly for a file
+Core/Src/usart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Core/Src/usart.c.s
+.PHONY : Core/Src/usart.c.s
 
 Core/Startup/startup_stm32f103c8tx.obj: Core/Startup/startup_stm32f103c8tx.s.obj
 .PHONY : Core/Startup/startup_stm32f103c8tx.obj
@@ -640,6 +712,30 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.s
 
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj
+
+# target to build an object file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i
+
+# target to preprocess a source file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i
+
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s
+
+# target to generate assembly for a file
+Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32_OLED.elf.dir\build.make CMakeFiles/STM32_OLED.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
+.PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -649,6 +745,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... STM32_OLED.elf
+	@echo ... Core/Src/aht20.obj
+	@echo ... Core/Src/aht20.i
+	@echo ... Core/Src/aht20.s
+	@echo ... Core/Src/font.obj
+	@echo ... Core/Src/font.i
+	@echo ... Core/Src/font.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
@@ -676,6 +778,9 @@ help:
 	@echo ... Core/Src/system_stm32f1xx.obj
 	@echo ... Core/Src/system_stm32f1xx.i
 	@echo ... Core/Src/system_stm32f1xx.s
+	@echo ... Core/Src/usart.obj
+	@echo ... Core/Src/usart.i
+	@echo ... Core/Src/usart.s
 	@echo ... Core/Startup/startup_stm32f103c8tx.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.i
@@ -713,6 +818,9 @@ help:
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.s
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.obj
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.i
+	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.s
 .PHONY : help
 
 

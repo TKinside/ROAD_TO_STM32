@@ -19,11 +19,16 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "i2c.h"
+#include "usart.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "oled.h"
+#include "font.h"
+#include "aht20.h"
+#include "string.h"
+#include "stdio.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -88,14 +93,56 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_I2C1_Init();
+  MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  //延迟上电
+  HAL_Delay(20);
+  OLED_Init();
+    AHT20_Init();                // 初始化 AHT20
+    float temperature, humidity; // 温度和湿度变量
+    char message_T[30];            // 要发送的字符串T
+    char message_H[30];            // 要发送的字符串TH
+    //初始化OLED成功
+    for (int i = 0; i < 32; ++i) {
 
+        OLED_Clean();
+        OLED_DrawCircle(64,32,4*i,OLED_COLOR_NORMAL);
+        OLED_DrawCircle(64,32,2*i,OLED_COLOR_NORMAL);
+        OLED_ShowFrame();
+        //HAL_Delay(10);
+    }
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+      switch (AHT20_STATE) {
+          case FREE:
+              AHT20_Measure();
+              break;
+          case MEASURE_DONE:
+              AHT20_Get();
+              break;
+          case GET_DONE:
+              AHT20_FIGURE(&temperature, &humidity);
+              break;
+          default:
+              break;
+      }
+      if(AHT20_STATE==READY)
+      {
+          sprintf(message_T,"T:%.1f",temperature);
+          sprintf(message_H,"H:%.1f",humidity);
+          OLED_Clean();
+          OLED_PrintASCIIString(0,16,message_T,&afont16x8,OLED_COLOR_NORMAL);
+          OLED_PrintASCIIString(0,48,message_H,&afont16x8,OLED_COLOR_NORMAL);
+          OLED_ShowFrame();
+          HAL_Delay(1000);
+          AHT20_STATE = FREE;
+      }
+
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

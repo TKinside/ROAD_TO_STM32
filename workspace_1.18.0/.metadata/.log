@@ -6090,3 +6090,60 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 F:\STM32CubeIDE\worksp
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:44:07.082
 !MESSAGE Indexed 'STM32_TIM' (27 sources, 145 headers) in 3.57 sec: 11,786 declarations; 61,537 references; 34 unresolved inclusions; 989 syntax errors; 5,126 unresolved names (6.5%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:08.142
+!MESSAGE Indexed 'Light_LED' (17 sources, 104 headers) in 1.12 sec: 7,012 declarations; 25,047 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.58%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:09.080
+!MESSAGE Indexed 'STM32_IIC' (23 sources, 115 headers) in 0.92 sec: 9,031 declarations; 43,910 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.35%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:10.074
+!MESSAGE Indexed 'LED_UART' (18 sources, 109 headers) in 0.982 sec: 8,007 declarations; 31,438 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.47%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:11.015
+!MESSAGE Indexed 'MCU_Lesson' (23 sources, 82 headers) in 0.928 sec: 5,952 declarations; 39,134 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0044%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:11.750
+!MESSAGE Indexed 'MCU_LESSON_UART' (25 sources, 84 headers) in 0.712 sec: 5,283 declarations; 27,653 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0061%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:12.490
+!MESSAGE Indexed 'LED_UART_DMA' (18 sources, 106 headers) in 0.729 sec: 7,833 declarations; 31,499 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.48%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:13.225
+!MESSAGE Indexed 'STM32_Interrupt' (17 sources, 104 headers) in 0.726 sec: 7,016 declarations; 25,100 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.58%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:13.826
+!MESSAGE Indexed 'STM32_OLED' (25 sources, 91 headers) in 0.588 sec: 6,114 declarations; 30,591 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0054%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:15.434
+!MESSAGE Indexed 'STM32_IIC_IT' (23 sources, 148 headers) in 1.59 sec: 10,708 declarations; 47,125 references; 2 unresolved inclusions; 36 syntax errors; 462 unresolved names (0.79%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:16.222
+!MESSAGE Indexed 'STM32_BlueToothLowEnergy' (18 sources, 106 headers) in 0.775 sec: 7,837 declarations; 31,522 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.48%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:17.220
+!MESSAGE Indexed 'DOG' (18 sources, 136 headers) in 0.997 sec: 8,254 declarations; 27,767 references; 2 unresolved inclusions; 36 syntax errors; 462 unresolved names (1.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:17.943
+!MESSAGE Indexed 'LED_UART_Interrupt' (18 sources, 106 headers) in 0.713 sec: 7,832 declarations; 31,470 references; 2 unresolved inclusions; 36 syntax errors; 188 unresolved names (0.48%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:18.612
+!MESSAGE Indexed 'LED_BLINK' (17 sources, 104 headers) in 0.66 sec: 7,013 declarations; 25,219 references; 2 unresolved inclusions; 37 syntax errors; 188 unresolved names (0.58%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 14:56:19.054
+!MESSAGE Indexed 'LED_Switch' (17 sources, 78 headers) in 0.432 sec: 3,655 declarations; 13,490 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 15:06:33.560
+!MESSAGE Indexed 'STM32_TIM_ExternalInput' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 15:06:35.595
+!MESSAGE Indexed 'STM32_TIM_ExternalInput' (17 sources, 78 headers) in 0.955 sec: 3,647 declarations; 13,278 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-04-13 15:30:20.491
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 16:13:57.460
+!MESSAGE Indexed 'STM32_TIM_SlaveMode' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-13 16:13:58.841
+!MESSAGE Indexed 'STM32_TIM_SlaveMode' (17 sources, 78 headers) in 0.686 sec: 3,647 declarations; 13,278 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)

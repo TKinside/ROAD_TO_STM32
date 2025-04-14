@@ -6224,3 +6224,9 @@ java.io.FileNotFoundException: F:\STM32CubeIDE\workspace_1.18.0\STM32_TIM_SlaveM
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-14 16:06:43.230
+!MESSAGE Indexed 'STM32_TIM_InputCapture' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-04-14 16:06:45.175
+!MESSAGE Indexed 'STM32_TIM_InputCapture' (17 sources, 78 headers) in 0.856 sec: 3,647 declarations; 13,278 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)

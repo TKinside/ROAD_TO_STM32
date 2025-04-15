@@ -1,0 +1,10 @@
+16:35:07 **** Incremental Build of configuration Debug for project STM32_TIM_InputCapture ****
+make -j16 all 
+arm-none-eabi-size  STM32_TIM_InputCapture.elf 
+   text	   data	    bss	    dec	    hex	filename
+  37312	    468	   3236	  41016	   a038	STM32_TIM_InputCapture.elf
+Finished building: default.size.stdout
+ 
+
+16:35:07 Build Finished. 0 errors, 0 warnings. (took 347ms)
+

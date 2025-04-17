@@ -101,7 +101,7 @@ int main(void)
 		  HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin);
 	  }
 	  //软件消抖
-	  //延时10s再次检测电平状态
+	  //延时10ms再次检测电平状态
 
 	  //控制红色小灯
 	  if(HAL_GPIO_ReadPin(KEY2_GPIO_Port,KEY2_Pin)==GPIO_PIN_RESET)

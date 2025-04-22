@@ -1,0 +1,27 @@
+16:55:03 **** Incremental Build of configuration Debug for project STM32_ADC_DMA ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:130:30: warning: format '%d' expects argument of type 'int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  130 |       sprintf(message2,"ADC:%d,V:%.2f",values[1],voltage);
+      |                             ~^         ~~~~~~~~~
+      |                              |               |
+      |                              int             uint32_t {aka long unsigned int}
+      |                             %ld
+../Core/Src/main.c:114:11: warning: variable 'Vref' set but not used [-Wunused-but-set-variable]
+  114 |     float Vref=0;
+      |           ^~~~
+arm-none-eabi-g++ -o "STM32_ADC_DMA.elf" @"objects.list"   -mcpu=cortex-m3 -T"F:\STM32CubeIDE\workspace_1.18.0\STM32_ADC_DMA\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32_ADC_DMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -u _scanf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: STM32_ADC_DMA.elf
+ 
+arm-none-eabi-size  STM32_ADC_DMA.elf 
+arm-none-eabi-objdump -h -S STM32_ADC_DMA.elf  > "STM32_ADC_DMA.list"
+   text	   data	    bss	    dec	    hex	filename
+  39508	    468	   3388	  43364	   a964	STM32_ADC_DMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32_ADC_DMA.list
+ 
+
+16:55:04 Build Finished. 0 errors, 2 warnings. (took 756ms)
+
